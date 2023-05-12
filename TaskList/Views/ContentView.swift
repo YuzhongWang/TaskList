@@ -17,7 +17,7 @@ struct ContentView: View {
   
   @State private var view: ItemStatusFilter = .all
   
-  /// 底部按钮
+  /// bottom button
   var filterControls: some View {
     
     VStack(alignment: .center, spacing: 16) {
@@ -79,8 +79,3 @@ struct ContentView: View {
   }
 }
 
-//struct ContentView_Previews: PreviewProvider {
-//  static var previews: some View {
-//    ContentView()
-//  }
-//}
