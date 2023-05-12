@@ -14,7 +14,6 @@ public struct IndexedCollection<Base: RandomAccessCollection>: RandomAccessColle
   }
 }
 
-//MARK: RandomAccessCollection
 public extension IndexedCollection {
   typealias Index = Base.Index
   typealias Element = (index: Index, element: Base.Element)
