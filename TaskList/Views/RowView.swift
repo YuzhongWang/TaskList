@@ -51,11 +51,3 @@ struct RowView: View {
     }
   }
 }
-
-//struct RowView_Previews: PreviewProvider {
-//  static var previews: some View {
-//    RowView(
-//      task: .constant( Task(name: "To Do") )
-//    )
-//  }
-//}
