@@ -31,7 +31,6 @@ struct SectionView: View {
       
       ForEach(prioritizedTasks.tasks.filter { self.shouldShowItem(item: $0) }) { index in
         RowView(task: self.$prioritizedTasks.tasks.filter { item in self.shouldShowItem(item: item.wrappedValue) }[index])
-//        RowView(task: self.$prioritizedTasks.tasks[index])
       }
       .onMove { sourceIndices, destinationIndex in
         self.prioritizedTasks.tasks.move(
