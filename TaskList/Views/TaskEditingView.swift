@@ -19,10 +19,3 @@ struct TaskEditingView: View {
   }
 }
 
-//struct TaskEditingView_Previews: PreviewProvider {
-//  static var previews: some View {
-//    TaskEditingView(
-//      task: .constant( Task(name: "To Do") )
-//    )
-//  }
-//}
