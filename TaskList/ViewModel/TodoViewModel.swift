@@ -16,31 +16,31 @@ final class TodoViewModel: ObservableObject {
       PrioritizedTasks(
         priority: .high,
         names: [
-          "Code a SwiftUI app",
-          "Book an escape room",
-          "Walk the cat",
-          "Pick up heavy things and put them down"
+          "Go to basketball match",
+          "Walk the dog",
+          "Grocery shopping",
+          "Buy concert tickets"
         ]
       ),
       PrioritizedTasks(
         priority: .medium,
         names: [
-          "Make karaoke playlist",
-          "Present at iOS meetup group"
+          "Get netflix membership",
+          "Visit neighbor"
         ]
       ),
       PrioritizedTasks(
         priority: .low,
         names: [
-          "Climb El Capitan"
+          "Get new basketball shoes"
         ]
       ),
       PrioritizedTasks(
         priority: .no,
         names: [
-          "Learn to make baklava",
-          "Play disc golf in every state",
-          "100 movie reboot marathon"
+          "Go to Melbourne",
+          "Go to London",
+          "Get 4090 graphics card"
         ]
       )
     ]
